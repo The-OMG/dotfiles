@@ -86,7 +86,7 @@ antigen bundle zdharma/fast-syntax-highlighting
 antigen bundle zpm-zsh/linuxbrew
 
 # Morpho https://github.com/psprint/zsh-morpho
-antigen bundle psprint/zsh-morpho
+# antigen bundle psprint/zsh-morpho
 
 # navigation-tools https://github.com/psprint/zsh-navigation-tools
 antigen bundle psprint/zsh-navigation-tools
