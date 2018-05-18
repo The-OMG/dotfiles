@@ -1,0 +1,42 @@
+################################################################################
+##################### Install linuxbrew, zsh, antigen ##########################
+################################################################################
+#							      ___           ___           ___                            #
+#							     /  /\         /__/\         /  /\                           #
+#							    /  /::\       |  |::\       /  /:/_                          #
+#							   /  /:/\:\      |  |:|:\     /  /:/ /\                         #
+#							  /  /:/  \:\   __|__|:|\:\   /  /:/_/::\                        #
+#							 /__/:/ \__\:\ /__/::::| \:\ /__/:/__\/\:\                       #
+#							 \  \:\ /  /:/ \  \:\~~\__\/ \  \:\ /~~/:/                       #
+#							  \  \:\  /:/   \  \:\        \  \:\  /:/                        #
+#							   \  \:\/:/     \  \:\        \  \:\/:/                         #
+#							    \  \::/       \  \:\        \  \::/                          #
+#							     \__\/         \__\/         \__\/                           #
+#                                                                              #
+################################################################################
+## Check out everything else: https://github.com/The-OMG/orionsbelt
+#
+## Linuxbrew: http://linuxbrew.sh/
+#
+## No root required.
+#
+## Tested on: https://ultraseedbox.com/
+#             https://cloud.google.com/compute/
+#             https://www.digitalocean.com/
+#
+## Tested on: Debian 8,9
+#             Ubuntu 16.04 - 18.04
+#
+################################################################################
+## linuxbrew.sh
+## Alternative Installation:
+
+git clone https://github.com/Linuxbrew/brew.git ~/.linuxbrew
+
+################################################################################
+## install zsh environment:
+
+brew install zsh zsh-completions zsh-autosuggestions antigen
+
+################################################################################
+## ZSH theme powerlevel9k: https://github.com/bhilburn/powerlevel9k
